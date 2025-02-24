@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.android)
+    id("com.android.library")  // ✅ Use full plugin ID
+    id("org.jetbrains.kotlin.android")  // ✅ Use full plugin ID
     id("maven-publish")
 
 }
@@ -56,7 +56,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.ijktech"
                 artifactId = "ByteGPT-Android"
-                version = "1.0.3"
+                version = "1.0.4"
             }
         }
     }
