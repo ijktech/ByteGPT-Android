@@ -56,7 +56,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.ijktech"
                 artifactId = "ByteGPT-Android"
-                version = "1.0.2"
+                version = "1.0.3"
             }
         }
     }
