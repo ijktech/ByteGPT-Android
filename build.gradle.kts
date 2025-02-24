@@ -1,21 +1,8 @@
-buildscript {
-    repositories {
-        google()  // ✅ Required for `com.android.library`
-        mavenCentral()
-    }
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.2.1")  // ✅ Ensure the Android Gradle Plugin is available
-    }
-}
-
-
 plugins {
-    id("com.android.library")  // ✅ Use full plugin ID
-    id("org.jetbrains.kotlin.android")  // ✅ Use full plugin ID
+    id("com.android.library") version "8.8.1"
+    id("org.jetbrains.kotlin.android") version "1.9.24"  // use your desired Kotlin version
     id("maven-publish")
-
 }
-
 
 android {
     namespace = "com.ijktech.bytegpt"
@@ -24,7 +11,6 @@ android {
     defaultConfig {
         minSdk = 24
         version = 1
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -64,7 +50,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.ijktech"
                 artifactId = "ByteGPT-Android"
-                version = "1.0.6"
+                version = "1.0.7"
             }
         }
     }
