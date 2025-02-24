@@ -16,9 +16,6 @@ plugins {
 
 }
 
-tasks.register("publishToMavenLocal") {
-    dependsOn("assembleRelease")
-}
 
 android {
     namespace = "com.ijktech.bytegpt"
