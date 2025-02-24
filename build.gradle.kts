@@ -1,3 +1,14 @@
+buildscript {
+    repositories {
+        google()  // ✅ Required for `com.android.library`
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.2.1")  // ✅ Ensure the Android Gradle Plugin is available
+    }
+}
+
+
 plugins {
     id("com.android.library")  // ✅ Use full plugin ID
     id("org.jetbrains.kotlin.android")  // ✅ Use full plugin ID
