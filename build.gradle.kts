@@ -5,6 +5,10 @@ plugins {
 
 }
 
+tasks.register("publishToMavenLocal") {
+    dependsOn("assembleRelease")
+}
+
 android {
     namespace = "com.ijktech.bytegpt"
     compileSdk = 35
@@ -52,7 +56,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.ijktech"
                 artifactId = "ByteGPT-Android"
-                version = "1.0.0"
+                version = "1.0.2"
             }
         }
     }
