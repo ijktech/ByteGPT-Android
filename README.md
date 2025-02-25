@@ -18,6 +18,7 @@ repositories {
 dependencies {
     implementation("com.github.ijktech:ByteGPT-Android:1.0.9")
 }
+```
 
 
 ### 2️⃣ Usage Example
@@ -117,6 +118,7 @@ class MainActivity : AppCompatActivity() {
     </ScrollView>
 
 </LinearLayout>
+```
 
 ### 4️⃣ Run the App 🎉
 
