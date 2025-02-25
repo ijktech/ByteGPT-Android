@@ -51,6 +51,12 @@ dependencies {
 }
 
 publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("$buildDir/maven-repo")
+        }
+    }
     publications {
         register<MavenPublication>("release") {
             groupId = "com.github.ijktech"
