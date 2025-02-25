@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         minSdk = 24
-        version = "1.0.8"
+        version = "1.0.9"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -55,7 +55,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.ijktech"
             artifactId = "ByteGPT-Android"
-            version = "1.0.8"
+            version = "1.0.9"
         }
     }
 }
