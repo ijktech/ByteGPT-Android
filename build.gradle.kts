@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.library") version "8.8.1"
-    id("org.jetbrains.kotlin.android") version "1.9.24"  // use your desired Kotlin version
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
     id("maven-publish")
 }
 
@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         minSdk = 24
-        version = 1
+        version = "1.0.8"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -31,6 +31,13 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 }
 
 dependencies {
@@ -43,14 +50,21 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 }
 
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.ijktech"
+            artifactId = "ByteGPT-Android"
+            version = "1.0.8"
+        }
+    }
+}
+
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("release") {
+            named<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.ijktech"
-                artifactId = "ByteGPT-Android"
-                version = "1.0.7"
             }
         }
     }
