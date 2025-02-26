@@ -134,7 +134,7 @@ Gradle 8+
 
 ### 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is available for non-commercial use under the create-commons 4.0 License. For commercial licensing please contact me.
 
 ### 📧 Contact
 
