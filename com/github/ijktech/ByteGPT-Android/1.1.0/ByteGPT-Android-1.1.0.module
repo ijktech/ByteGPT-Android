@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ijktech",
+    "module": "ByteGPT-Android",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteGPT-Android-1.1.0.aar",
+          "url": "ByteGPT-Android-1.1.0.aar",
+          "size": 61201297,
+          "sha512": "93c6a26bbc6518dcd6191fd5a3da48884cb467dcdabfee5457f2bd9e0e375237373da6094a6582fbfaf1be3b9f18b302d342023fb8214b29f5750a0a25ec015a",
+          "sha256": "0d2da20247154dc785163c81331cffc6bb45b07a4b9ee8edb5c58473119e6aef",
+          "sha1": "4bcef91fe38761f5d83edfbf1a42f0c620654ae6",
+          "md5": "2d420ee378cf930008808e941e37f370"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.microsoft.onnxruntime",
+          "module": "onnxruntime-android",
+          "version": {
+            "requires": "1.16.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteGPT-Android-1.1.0.aar",
+          "url": "ByteGPT-Android-1.1.0.aar",
+          "size": 61201297,
+          "sha512": "93c6a26bbc6518dcd6191fd5a3da48884cb467dcdabfee5457f2bd9e0e375237373da6094a6582fbfaf1be3b9f18b302d342023fb8214b29f5750a0a25ec015a",
+          "sha256": "0d2da20247154dc785163c81331cffc6bb45b07a4b9ee8edb5c58473119e6aef",
+          "sha1": "4bcef91fe38761f5d83edfbf1a42f0c620654ae6",
+          "md5": "2d420ee378cf930008808e941e37f370"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ByteGPT-Android-1.1.0-sources.jar",
+          "url": "ByteGPT-Android-1.1.0-sources.jar",
+          "size": 6195,
+          "sha512": "781d4ba1f36fb6fa3c51d08eb875d0275f892aaaa3ac75eebedab03c479deab983655c59b057f13e055aca928d20c1c2ed1961194001b3c83e8614f6fec464ea",
+          "sha256": "6dcdfc299c5287b8fe67a836ec5d61e4d6c6f27fa41033d7034e87bff94fce0e",
+          "sha1": "471db44299db1e344e416f052782dd3c906442aa",
+          "md5": "14bdeb24cbcb34afd871478468e636a1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ByteGPT-Android-1.1.0-javadoc.jar",
+          "url": "ByteGPT-Android-1.1.0-javadoc.jar",
+          "size": 295649,
+          "sha512": "ac1f124601a71b0df8c466850fb0693e155f13a471de9bacda721e50d34f98d1ded882a169430a61753abf1a353c228f760692bb1d72ba8531dc6092510f88ec",
+          "sha256": "85589fd57b5668fb116bf9e1f1393419d7e9775ff63206b3f595e600e3494851",
+          "sha1": "fec6f9fee9f46f482d78eebba397ed2f6a63e42b",
+          "md5": "207cb3a017a396951eb21d424f3bdd59"
+        }
+      ]
+    }
+  ]
+}
