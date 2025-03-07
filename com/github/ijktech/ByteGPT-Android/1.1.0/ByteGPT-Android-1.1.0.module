@@ -35,11 +35,11 @@
         {
           "name": "ByteGPT-Android-1.1.0.aar",
           "url": "ByteGPT-Android-1.1.0.aar",
-          "size": 61201297,
-          "sha512": "93c6a26bbc6518dcd6191fd5a3da48884cb467dcdabfee5457f2bd9e0e375237373da6094a6582fbfaf1be3b9f18b302d342023fb8214b29f5750a0a25ec015a",
-          "sha256": "0d2da20247154dc785163c81331cffc6bb45b07a4b9ee8edb5c58473119e6aef",
-          "sha1": "4bcef91fe38761f5d83edfbf1a42f0c620654ae6",
-          "md5": "2d420ee378cf930008808e941e37f370"
+          "size": 61204306,
+          "sha512": "aecb68f1100f347ca72417b1ee3166267ddba681596f3d486ac73ea2488aacfc50afdabd8e708c4e68c824573f0a6d542831fc6e18697a009cd1643c2a0fd717",
+          "sha256": "a92d9b3914321f2a8f5f4a7438e0ee6010a03a528e7e0489e3b02fdfe2166e82",
+          "sha1": "034c63b9e1d8caefb857883c481cc42f417fcb08",
+          "md5": "4657f979810a98a637b2a2d9ba524cfd"
         }
       ]
     },
@@ -92,11 +92,11 @@
         {
           "name": "ByteGPT-Android-1.1.0.aar",
           "url": "ByteGPT-Android-1.1.0.aar",
-          "size": 61201297,
-          "sha512": "93c6a26bbc6518dcd6191fd5a3da48884cb467dcdabfee5457f2bd9e0e375237373da6094a6582fbfaf1be3b9f18b302d342023fb8214b29f5750a0a25ec015a",
-          "sha256": "0d2da20247154dc785163c81331cffc6bb45b07a4b9ee8edb5c58473119e6aef",
-          "sha1": "4bcef91fe38761f5d83edfbf1a42f0c620654ae6",
-          "md5": "2d420ee378cf930008808e941e37f370"
+          "size": 61204306,
+          "sha512": "aecb68f1100f347ca72417b1ee3166267ddba681596f3d486ac73ea2488aacfc50afdabd8e708c4e68c824573f0a6d542831fc6e18697a009cd1643c2a0fd717",
+          "sha256": "a92d9b3914321f2a8f5f4a7438e0ee6010a03a528e7e0489e3b02fdfe2166e82",
+          "sha1": "034c63b9e1d8caefb857883c481cc42f417fcb08",
+          "md5": "4657f979810a98a637b2a2d9ba524cfd"
         }
       ]
     },
@@ -112,11 +112,11 @@
         {
           "name": "ByteGPT-Android-1.1.0-sources.jar",
           "url": "ByteGPT-Android-1.1.0-sources.jar",
-          "size": 6195,
-          "sha512": "781d4ba1f36fb6fa3c51d08eb875d0275f892aaaa3ac75eebedab03c479deab983655c59b057f13e055aca928d20c1c2ed1961194001b3c83e8614f6fec464ea",
-          "sha256": "6dcdfc299c5287b8fe67a836ec5d61e4d6c6f27fa41033d7034e87bff94fce0e",
-          "sha1": "471db44299db1e344e416f052782dd3c906442aa",
-          "md5": "14bdeb24cbcb34afd871478468e636a1"
+          "size": 7541,
+          "sha512": "228d09c13f2b0d869ddd8f70d2a1e06e3507a8669bd2da0cb4dc2635db5b50ce4848f7cd45f61835ae5b619aa915f2447a119c6151e16c810c20c3fc84a3986a",
+          "sha256": "465ef2976d71cb130adb5acc6439f0bc0daa430fd37d273e951094e9f176ff40",
+          "sha1": "584b704212adea7cb3bce1e1f1754cbb097bf30b",
+          "md5": "bfd3fc2a4f96e594c15087cf37f7282b"
         }
       ]
     },
@@ -132,11 +132,11 @@
         {
           "name": "ByteGPT-Android-1.1.0-javadoc.jar",
           "url": "ByteGPT-Android-1.1.0-javadoc.jar",
-          "size": 295649,
-          "sha512": "ac1f124601a71b0df8c466850fb0693e155f13a471de9bacda721e50d34f98d1ded882a169430a61753abf1a353c228f760692bb1d72ba8531dc6092510f88ec",
-          "sha256": "85589fd57b5668fb116bf9e1f1393419d7e9775ff63206b3f595e600e3494851",
-          "sha1": "fec6f9fee9f46f482d78eebba397ed2f6a63e42b",
-          "md5": "207cb3a017a396951eb21d424f3bdd59"
+          "size": 303402,
+          "sha512": "5bac97694b6e6ab64c0f3b9bb9948230331555db2ba63d9b620fb19935acc8662fadceb75b38329492cd2cb58d1053e8fbe2ce8b21051835b22effeb5b432a8e",
+          "sha256": "07d19a9a08f15a655e0a5507ce53fc35cb055cedd2d25c9c7cd084e784b6814f",
+          "sha1": "c9d0db736887c940a6f1daa8ccb8e2e7faa67b73",
+          "md5": "08929a6034df41fd4b0a8fd35dbcdfc3"
         }
       ]
     }
